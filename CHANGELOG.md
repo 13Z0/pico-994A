@@ -24,6 +24,12 @@ out over HDMI or DVI, and a USB keyboard works as the TI keyboard.
 > RP2350 only. The original Raspberry Pi Pico (RP2040) does not have enough memory for the
 > TI-99/4A.
 
+# v0.3.1
+
+## Fixes
+
+- **USB controllers and keyboards on the Adafruit Fruit Jam and other boards with PIO-USB are now found at every start.** On boards with an older RP2350 chip they were often not detected.
+
 # v0.3
 
 After updating, all settings return to their defaults once.
